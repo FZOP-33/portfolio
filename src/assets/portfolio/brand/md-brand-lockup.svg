@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="248" height="64" viewBox="0 0 248 64" fill="none" role="img" aria-label="Mohamed Diarra — Personal Brand Logo">
+  <defs>
+    <linearGradient id="lockup-bg" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="52%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="lockup-sheen" x1="8" y1="6" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.28" />
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="lockup-rim" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DDD6FE" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="lockup-d" x1="35" y1="20" x2="51" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0F2FE" />
+    </linearGradient>
+    <linearGradient id="lockup-dot" x1="230" y1="36" x2="240" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+
+  <!-- MD Symbol Mark -->
+  <g>
+    <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#lockup-bg)" />
+    <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#lockup-sheen)" />
+    <rect x="3.75" y="3.75" width="56.5" height="56.5" rx="15.25" stroke="url(#lockup-rim)" stroke-width="1.5" />
+    <rect x="8" y="8" width="48" height="48" rx="11.5" fill="#090D16" fill-opacity="0.16" />
+
+    <!-- Centered Geometric M + D (x: 13.5..50.5, center = 32) -->
+    <path
+      d="M14 43.5V20.5L22.5 32L31 20.5V43.5"
+      stroke="#FFFFFF"
+      stroke-width="4.4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M37.5 20.5H42C47.2 20.5 50.5 24.9 50.5 32C50.5 39.1 47.2 43.5 42 43.5H37.5V20.5Z"
+      stroke="url(#lockup-d)"
+      stroke-width="4.4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="51" cy="13.5" r="2.5" fill="#67E8F9" />
+  </g>
+
+  <!-- Wordmark: Mohamed + Accent Dot -->
+  <text
+    x="76"
+    y="41"
+    fill="#F8FAFC"
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="29"
+    font-weight="800"
+    letter-spacing="-0.8"
+  >Mohamed</text>
+  <circle cx="212" cy="38" r="3.8" fill="url(#lockup-dot)" />
+</svg>
