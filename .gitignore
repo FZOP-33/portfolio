@@ -25,3 +25,11 @@ dist-ssr
 
 # Backup of uncompressed original videos (not deployed)
 videos-originales/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Netlify local state
+.netlify
